@@ -2,3 +2,5 @@
 
 # Installs applications.
 
+# Fantastical 2
+install_zip_app "$FANTASICAL_APP_URL" "$FANTASTICAL_APP_NAME"
