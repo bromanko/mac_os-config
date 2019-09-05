@@ -6,5 +6,4 @@
 chsh -s /usr/local/bin/zsh
 
 # Dotfiles
-install_git_project "https://github.com/bkuhlmann/dotfiles.git" $REPO_DOTFILES "dotfiles" "bin/run i"
-source $HOME/.bashrc
+#install_git_project "git@github.com:bromanko/dotfiles.git" $REPO_DOTFILES "dotfiles" "bin/run i"

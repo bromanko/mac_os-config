@@ -9,6 +9,7 @@ set -o pipefail
 IFS=$'\n\t'
 
 # Repositories
+export REPO_DOTFILES="master"
 
 # Applications
 export FANTASTICAL_APP_URL="https://flexibits.com/fantastical/download"
