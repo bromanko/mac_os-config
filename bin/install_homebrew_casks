@@ -4,6 +4,9 @@
 
 brew cask install alfred
 brew cask install bartender
+brew cask install bloomrpc
+brew cask install command-tab-plus
+brew cask install jetbrains-toolbox
 brew cask install dash
 brew cask install firefox
 brew cask install google-chrome

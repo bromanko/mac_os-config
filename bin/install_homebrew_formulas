@@ -9,6 +9,7 @@ fi
 
 brew install bat
 brew install direnv
+brew install docker
 brew install fzf
 brew install git
 brew install httpie

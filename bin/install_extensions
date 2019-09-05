@@ -5,4 +5,16 @@
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-# vim plugins
+# Install vim-plug
+mkdir -p "$VIM_EXTENSION_ROOT"
+mkdir -p "$VIM_BACKUP_ROOT"
+mkdir -p "$VIM_SWAP_ROOT"
+
+if [[ ! -f "$HOME/.vim/autoload/plug.vim" ]]; then
+    curl -fLo "$HOME/.vim/autoload/plug.vim" --create-dirs \
+        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+fi
+
+ln -sf ~/.vim/autoload/ ~/.config/nvim/autoload
+
+vim +'PlugInstall --sync' +qa
