@@ -17,5 +17,6 @@ brew install icdiff
 brew install jq
 brew install mas
 brew install nvim
+brew install peco
 brew install zsh
 brew install zsh-syntax-highlighting
