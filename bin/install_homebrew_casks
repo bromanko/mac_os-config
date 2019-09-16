@@ -10,6 +10,7 @@ brew cask install dash
 brew cask install font-fantasque-sans-mono
 brew cask install firefox
 brew cask install google-chrome
+brew cask install google-cloud-sdk
 brew cask install istat-menus
 brew cask install jetbrains-toolbox
 brew cask install keybase

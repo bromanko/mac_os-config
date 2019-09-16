@@ -9,7 +9,7 @@ if ! command -v mas > /dev/null; then
 fi
 
 # 1Password
-mas install 443987910
+mas install 1333542190
 
 # Amphetamine
 mas install 937984704

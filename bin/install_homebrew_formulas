@@ -12,6 +12,7 @@ brew install direnv
 brew install docker
 brew install fzf
 brew install git
+brew install grpcurl
 brew install httpie
 brew install icdiff
 brew install jq
