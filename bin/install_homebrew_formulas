@@ -19,5 +19,8 @@ brew install jq
 brew install mas
 brew install nvim
 brew install peco
+brew install ripgrep
+brew install sops
+brew install tldr
 brew install zsh
 brew install zsh-syntax-highlighting
