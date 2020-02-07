@@ -7,20 +7,29 @@ if ! command -v brew > /dev/null; then
 fi
 
 
+brew install asdf
 brew install bat
 brew install direnv
 brew install docker
+brew install fd
 brew install fzf
+brew install gpg
+brew install github/gh/gh
 brew install git
 brew install grpcurl
 brew install httpie
 brew install icdiff
 brew install jq
+brew install jwt-cli
+brew install kubectx
+brew install kubernetes-cli
+brew install kustomize
 brew install mas
 brew install nvim
 brew install peco
 brew install ripgrep
 brew install sops
+brew install terraform
 brew install tldr
 brew install zsh
 brew install zsh-syntax-highlighting
